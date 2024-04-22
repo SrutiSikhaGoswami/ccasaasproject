@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/style.css">
+</head>
+
+<body>
+   
+    <header class="bground">
+        <nav>
+            <div Id="navbar" class="">
+                <div id="menu">
+                    <div id="logo"  >
+                        <img src="images/lgo.jpg">
+                    </div>
+                    <ul class="list">
+                        <li class="li"><a href="/">Home </a></li>
+                        <li class="li"><a href="#about">About Us </a></li>
+                        <li class="li"><a href="#sec3">Contact Us</a></li>
+                        <li class="li"><a href="#sec2" >Our Services</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+            <div id="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <marquee id="mrq" class="font" width="95%" direction="left" height="10%" scrollamount="10">
+            welcome to arthub
+        </marquee>
+        <div id="head">
+            <h1>DANCE IS THE HIDDEN  LANGUAGE OF THE SOUL </h1>
+        </div>
+    </header>
+    <section id="about">
+        <div id="cont1" class="font2" style="margin-top: 42px; color:#b3e69e; font-size:2.5rem;">Why
+            Choose Arthub</div>
+        <!-- <hr style="height:2px;border-width:0;color:rgb(209, 65, 65);background-color:rgb(140, 30, 30)"> -->
+        <div id="cont2">
+            <div class="box">
+                <img src="https://images.assetsdelivery.com/compings_v2/muslumstock/muslumstock1811/muslumstock181102283.jpg">
+                <h5 class="font">learn dance sitting at home with our online classes</h5>
+            </div>
+
+            <div class="box">
+                <img src="images/trophy.jpg">
+                <h5 class="font"> Famous Trainers</h5>
+            </div>
+
+            <div class="box">
+                <img src="images/growth.jpg">
+                <h5 class="font">5 Years Of Experience</h5>
+            </div>
+
+            <div class="box">
+                <img src="images/cal.jpg">
+                <h5 class="font"> Flexible Time Table because of offline classes in weekends</h5>
+            </div>
+    </section>
+    <section id="sec2">
+        <div id="h1">
+            <h1 class="font2" style="color: rgb(0, 0, 0); font-size: 2.2rem;">Choose Your Dance Style</h1>
+        </div>
+        <div id="h2">
+            <div class="box-pre">
+                <div class="box1"><img src="images/ballet-771x512.jpg"></div>
+
+            <div class="box1">
+                <h3 class="font2" style="font-size:2.5rem;">Ballet </h3>
+                <p>Ballet is a type of performance dance that originated during the Italian Renaissance in the fifteenth century and later developed into a concert dance form in France and Russia. It has since become a widespread and highly technical form of dance with its own vocabulary. </p>
+            </div>
+            </div>
+            <div class="box-pre">
+                <div class="box1">
+                    <h3 class="font2" style="font-size:2.5rem;">Classical Dance</h3>
+                    <p>Indian classical dance, or Shastriya Nritya, is an umbrella term for different regionally-specific Indian classical dance traditions, rooted in predominantly Hindu musical theatre performance,the theory and practice of which can be traced to the Sanskrit text Natya Shastra. The number of Indian classical dance styles ranges from six to eight to twelve, or more, depending on the source and scholar;the main organisation for Indian arts preservation, the Sangeet Natak Academy recognizes eight: Bharatanatyam, Kathak, Kuchipudi, Odissi, Kathakali, Sattriya, Manipuri and Mohiniyattam.</p>
+                </div>
+                <div class="box1"><img src="https://blogcafedissensus.files.wordpress.com/2017/09/image0013.jpg?w=492"></div>
+            </div>
+            <div class="box-pre">
+                <div class="box1"><img src="images/contemporary-771x528.jpg"></div>
+                <div class="box1">
+                    <h3 class="font2" style="font-size:2.5rem;">Contemporary Dance</h3>
+                    <p>Contemporary dance is a genre of dance performance that developed during the mid-twentieth century and has since grown to become one of the dominant genres for formally trained dancers throughout the world, with particularly strong popularity in the U.S. and Europe.
+                    </p>
+                </div>
+            </div>
+            <div class="box-pre">
+                <div class="box1">
+                    <h3 class="font2" style="font-size:2.5rem;">Hip Hop</h3>
+                    <p>Hip-hop, cultural movement that attained widespread popularity in the 1980s and '90s and also the backing music for rap, the musical style incorporating rhythmic and/or rhyming speech that became the movement's most lasting and influential art form.</p>
+                </div>
+                <div class="box1"><img src="images/bg2.jpg"></div>
+            </div>
+            
+        </div>
+
+    </section>
+    <section id="sec3">
+        <div id="sec31">
+            <h1 class="font2" style="color: rgb(255, 255, 255);">Get your signup done for further better experience</h1>
+        </div>
+        <div id="sec32">
+            <form method="post" action="/signup">
+                <!-- <label for="name">En</label> -->
+                <input type="text" name="name" placeholder="Enter Your Name ">
+                <!-- <label for=""></label> -->
+                <input type="email" name="email" placeholder="Enter your Email address">
+                <!-- <label for=""></label> -->
+                <input type="text" name="contact" placeholder="Enter your Contact Number">
+                <!-- <label for=""></label> -->
+        
+                <button type="submit">Sign up</button>
+            </form>
+        </div>
+    </section>
+    <script>
+         
+         burger=document.querySelector('#burger');
+     
+        //  navbar=document.querySelector('#navbar');
+         logo=document.querySelector('#logo');
+        //  menu=document.querySelector('#menu');
+        //  burger.addEventListener('click',()=>{
+        //     menu.classList.toggle('h');
+        //     menu.classList.toggle('v');
+            let list=document.querySelector('.list');
+            burger.addEventListener("click",()=>{
+                list.classList.toggle('newlist');
+                 
+            });
+         
+    </script>
+</body>
+</html>
